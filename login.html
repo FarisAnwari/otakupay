@@ -19,28 +19,27 @@
     <!-- script buat cart -->
     <script src="store.js" async></script>
 
-    <title>O-Pay</title>
+    <title>Login | OtakuShop</title>
 </head>
 
 <body>
     <!-- navbar begin -->
     <nav class="navbar navbar-expand-lg" style="background-color: #faa4bd">
-        <div class="container-fluid">
-            <a class="navbar-brand mx-4" href="#"
+        <div class="container mx-auto">
+            <a class="navbar-brand mx-4" href="index.html"
                 style="color:aliceblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">OtakuShop</a>
             <div class="hstack">
-                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-wallet icon-nav"
+                <a class="nav-link active" aria-current="page" href="balance.html"><i class="bi bi-wallet icon-nav"
                         style="color: aliceblue;"></i></a>
-                <a class="nav-link active mx-4" aria-current="page" href="#"><i class="bi bi-person-circle icon-nav"
-                        style="color: aliceblue;"></i></a>
+                <a class="nav-link active mx-4" aria-current="page" href="profile.html"><i
+                        class="bi bi-person-circle icon-nav" style="color: aliceblue;"></i></a>
             </div>
-
         </div>
     </nav>
     <!-- navbar end -->
 
     <!-- login -->
-    <div class="container m-3">
+    <div class="container m-5 px-5">
         <div class="row justify-content-md-center">
             <div class="col-md-6 offset-md-3">
                 <!-- <h2 class="text-center text-dark mt-5">Login Form</h2>
@@ -58,7 +57,7 @@
 
                         <div class="mb-3">
                             <input type="text" class="form-control" id="Username" aria-describedby="emailHelp"
-                                placeholder="Phone Number">
+                                placeholder="Username">
                         </div>
                         <div class="mb-3">
                             <input type="password" class="form-control" id="password" placeholder="Password">
@@ -66,7 +65,7 @@
                         <div class="text-center"><button type="submit"
                                 class="btn btn-outline-secondary px-5 mb-5 w-100">Login</button></div>
                         <div id="emailHelp" class="form-text text-center mb-3 text-dark">Not
-                            registered? <a href="#" class="text-dark fw-bold"> Create an
+                            registered? <a href="register.html" class="text-dark fw-bold"> Create an
                                 Account</a>
                         </div>
                     </form>

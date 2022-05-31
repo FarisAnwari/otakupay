@@ -19,54 +19,28 @@
     <!-- script buat cart -->
     <script src="store.js" async></script>
 
-    <title>O-Pay</title>
+    <title>Register | OtakuShop</title>
 </head>
 
 <body>
     <!-- navbar begin -->
-    <!-- <nav class="navbar navbar-expand-lg" style="background-color: #faa4bd">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img src="asset/logo.png" alt="Otakushop" width="130rem"
-                    height="50rem" /></a>
-            <p style="font-family: Arial, Helvetica, sans-serif; color: aliceblue;">
-                OtakuShop</p>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="bi bi-cart cyan-text icon-nav"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-person-circle icon-nav"
-                                style="color: aliceblue;"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
 
     <nav class="navbar navbar-expand-lg" style="background-color: #faa4bd">
-        <div class="container-fluid">
-            <a class="navbar-brand mx-4" href="#"
+        <div class="container mx-auto">
+            <a class="navbar-brand mx-4" href="index.html"
                 style="color:aliceblue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">OtakuShop</a>
             <div class="hstack">
-                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-wallet icon-nav"
+                <a class="nav-link active" aria-current="page" href="balance.html"><i class="bi bi-wallet icon-nav"
                         style="color: aliceblue;"></i></a>
-                <a class="nav-link active mx-4" aria-current="page" href="#"><i class="bi bi-person-circle icon-nav"
-                        style="color: aliceblue;"></i></a>
+                <a class="nav-link active mx-4" aria-current="page" href="profile.html"><i
+                        class="bi bi-person-circle icon-nav" style="color: aliceblue;"></i></a>
             </div>
-
         </div>
     </nav>
     <!-- navbar end -->
 
     <!-- register -->
-    <div class="container m-3">
+    <div class="container m-5 px-5">
         <div class="row justify-content-md-center">
             <div class="col-md-6 offset-md-3">
                 <!-- <h2 class="text-center text-dark mt-5">register Form</h2>
@@ -83,7 +57,11 @@
                         </div>
 
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="Username" aria-describedby="emailHelp"
+                            <input type="text" class="form-control" id="Username" aria-describedby="username"
+                                placeholder="Username">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="Phone Number" aria-describedby="username"
                                 placeholder="Phone Number">
                         </div>
                         <div class="mb-3">
@@ -92,7 +70,7 @@
                         <div class="text-center"><button type="submit"
                                 class="btn btn-outline-secondary px-5 mb-5 w-100">Register</button></div>
                         <div id="emailHelp" class="form-text text-center mb-3 text-dark">Already have an account? <a
-                                href="#" class="text-dark fw-bold"> Login</a>
+                                href="login.html" class="text-dark fw-bold"> Login</a>
                         </div>
                     </form>
                 </div>
